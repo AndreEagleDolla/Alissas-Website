@@ -1,0 +1,149 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: Moon;
+  src: url("fonts/Moon Bold.otf");
+}
+body{
+  background-image: url("Pictures/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  font-family: Moon;
+  position: relative;
+}
+
+h1{
+  text-align: center;
+  padding-top: 10%;
+  font-size: 75px;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  color: white;
+}
+h3{
+  text-align: center;
+  margin-top: 10%;
+color: white;
+  background-color: #333;
+}
+.jumbotron{
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0);
+}
+.lead{
+  color: white;
+}
+/*Navbar Brand margins and coloring*/
+.navbar-brand{
+  color: white !important;
+}
+/*Hovering over navbar color*/
+#navbar1 ul li:hover a{ 
+ color:white;
+ margin-right: 0;
+ margin-left: 0;
+}
+/*buy it now button formatting*/
+.btn-primary{
+  background-color: #333 !important;
+  border-color: #333;
+  border-radius: 8px;
+  margin-top: 7%;
+  font-size: 50px ;
+  color: white;
+}
+/*buy it now button hover effect*/
+.btn-glow:hover {
+  box-shadow: 0px 0px 25px #939393;
+  border-color: #666666;
+  background-color: #666666 !important;
+}
+/*Navbar formatting*/
+.navbar {
+  margin-bottom: 0%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Contact Us Div formatting */
+.carousel-inner img {
+  margin: auto;
+  max-width:100%
+  height: auto;
+}
+.carousel-inner .item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+/*makes carousel images responsive*/
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+}
+/* scrolling area to gallery-10% offset from divGal */
+#scrollToGallery{
+  margin-top: 5%;
+}
+/*gallery div formatting*/
+#divGal{
+  margin-top: 15%;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+/* scrolling area to request-10% offset from divGal */
+#scrollToRequests{
+  margin-top: 5%;
+}
+#divRequest{
+  margin-top: 15%;
+}
+#divContact{
+  background-color: #333;
+  height: auto !important;
+}
+.form-group{
+  margin-left: 30%;
+  margin-right: 30%;
+  color: white;
+}
+#submitButton{
+  margin-bottom: 5%;
+}
+#requestInfo{
+  color: white;
+  margin-bottom: 5%
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+.container { 
+  padding: 0px !important;
+}
+#contactInfo{
+  text-align: center;
+  color: white;
+  margin-bottom: 0%;
+}

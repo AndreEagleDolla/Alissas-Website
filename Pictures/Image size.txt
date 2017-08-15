@@ -1,0 +1,3 @@
+Res: 800x600
+
+Crop ratio: 1:1
