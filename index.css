@@ -1,6 +1,7 @@
 html, body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: Moon;
@@ -9,7 +10,7 @@ html, body {
 body{
   background-image: url("Pictures/BG.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   background-attachment: fixed;
   font-family: Moon;
   position: relative;
@@ -17,8 +18,7 @@ body{
 
 h1{
   text-align: center;
-  padding-top: 10%;
-  font-size: 75px;
+  margin: 5%;
   color: white;
 }
 
@@ -40,6 +40,8 @@ color: white;
 }
 .lead{
   color: white;
+  text-align: center;
+  font-size: 1rem;
 }
 /*Navbar Brand margins and coloring*/
 .navbar-brand{
@@ -57,7 +59,7 @@ color: white;
   border-color: #333;
   border-radius: 8px;
   margin-top: 7%;
-  font-size: 50px ;
+  font-size: 2rem ;
   color: white;
 }
 /*buy it now button hover effect*/
@@ -75,8 +77,8 @@ color: white;
 /* Contact Us Div formatting */
 .carousel-inner img {
   margin: auto;
-  max-width:100%
-  height: auto;
+  max-width:100%;
+  min-width: 45%;
 }
 .carousel-inner .item img {
   position: absolute;
@@ -118,10 +120,19 @@ color: white;
   background-color: #333;
   height: auto !important;
 }
-.form-group{
-  margin-left: 30%;
-  margin-right: 30%;
+.form-group label{
+  margin-top: 1rem;
+  margin-left: 45%;
   color: white;
+  text-align: center;
+}
+.form-group input{
+  margin-top: 1rem;
+  margin-left: 33%;
+  max-width: 40%;
+}
+#emailHelp{
+  margin-left: 33%;
 }
 #submitButton{
   margin-bottom: 5%;
@@ -147,3 +158,30 @@ color: white;
   color: white;
   margin-bottom: 0%;
 }
+
+.display-1{
+  font-size: 3rem;
+}
+
+@media (max-width: 800px) {
+  .form-group label{
+    margin-top: 2%;
+    margin-left: 35%;
+    color: white;
+    text-align: center;
+  }
+  .form-group input{
+    margin-top: 10%;
+    margin-left: 45;
+    width: 85%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  }
+  #emailHelp{
+    margin-left: 3rem;
+  }
+}
+
+
+
